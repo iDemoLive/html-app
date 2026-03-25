@@ -2,3 +2,5 @@
 
 - git add .
 - git commit -m "comment"
+- git status
+- git log
