@@ -17,11 +17,11 @@
 - git branch
 - git pull origin main		
 - git checkout -b {name}
-  create file
+-- create file
 - git add .
 - git commit -m "github comment"
 - git push origin {name}
-  PR : main <- {name}
+-- PR : main <- {name}
 - git checkout main
 - git branch -D {name}
 - git pull origin main
