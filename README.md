@@ -5,6 +5,10 @@
 - git commit -m "github comment"
 - git status
 - git log
+- git checkout -b {name}
+- :: edite
+- git checkout main
+- git branch -d {name}
 
 ## Remote
 - git remote add origin {URL Repository}
