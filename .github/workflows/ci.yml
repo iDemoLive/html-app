@@ -17,6 +17,8 @@ jobs:
       - run: echo "Hello ${{ env.COMPANY_NAME }}"
       - run: echo ${{ env.SERVER_IP }}
       - run: echo "Repo Name ${{ env.REPO_NAME }}"
+      - run: ecgo "APP NAME ${{ vars.APP_NAME }}"
+      - run: ecgo "APP KEY ${{ secrets.APP_KEY }}"
   job-2:
     runs-on: ubuntu-latest
     steps:
