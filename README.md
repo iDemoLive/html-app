@@ -3,6 +3,8 @@
 ## Save
 - git add .
 - git commit -m "github comment"
+- git status
+- git log
 
 ## Remote
 - git remote add origin {URL Repository}
@@ -19,5 +21,6 @@ create file
 - git commit -m "github comment"
 - git push origin {name}
 PR : main <- {name}
-- git status
-- git log
+$ git checkout main
+$ git branch -D feature/add-githug-workflow
+$ git pull origin main
