@@ -6,12 +6,19 @@ on:
       - 'feature/**'
       - 'bugfix/**'
       - 'chore/**'
+env:
+  SERVER_IP: '127.0.0.1'
+  COMPANY_NAME: 'NTPLC'
+  REPO_NAME: ${{ github.repository }}
 jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello GitHub Action !!!"
+      - run: echo "Hello ${{ env.COMPANY_NAME }}"
+      - run: echo ${{ env.SERVER_IP }}
+      - run: echo "Repo Name ${{ env.REPO_NAME }}"
   job-2:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Job2"
+      - run: echo "Action ${{ github.action }}"
+      - run: echo "Repo URL ${{ github.repositoryUrl }}"
