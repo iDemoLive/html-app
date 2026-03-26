@@ -9,6 +9,7 @@
 - :: edite
 - git checkout main
 - git branch -d {name}
+- git branch
 
 ## Remote
 - git remote add origin {URL Repository}
