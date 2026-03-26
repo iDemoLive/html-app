@@ -22,7 +22,7 @@ jobs:
       - run: echo "APP KEY ${{ secrets.APP_KEY }}"
   job-2:
     runs-on: ubuntu-latest
-    environment: produntion
+    environment: production
     steps:
       - run: echo "Action ${{ github.action }}"
       - run: echo "Repo URL ${{ github.repository }}"
