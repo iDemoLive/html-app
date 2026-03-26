@@ -11,6 +11,7 @@
 - git remote -v
 - git remote remove origin
 - git remote -v
+- git push -u origin main
 
 ## Update
 - git branch
