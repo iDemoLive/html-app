@@ -1,6 +1,16 @@
 # คู่มือ Git Hub
 
-##
+## Save
+- git add .
+- git commit -m "github comment"
+
+## Remote
+- git remote add origin {URL Repository}
+- git remote -v
+- git remote remove origin
+- git remote -v
+
+## Update
 - git branch
 - git pull origin main		
 - git checkout -b {name}
@@ -11,8 +21,3 @@ create file
 PR : main <- {name}
 - git status
 - git log
-
-- git remote add origin {URL Repository}
-- git remote -v
-- git remote remove origin
-- git remote -v
