@@ -21,6 +21,6 @@ create file
 - git commit -m "github comment"
 - git push origin {name}
 PR : main <- {name}
-$ git checkout main
-$ git branch -D feature/add-githug-workflow
-$ git pull origin main
+- git checkout main
+- git branch -D {name}
+- git pull origin main
