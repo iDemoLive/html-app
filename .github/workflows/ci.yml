@@ -11,3 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello GitHub Action !!!"
+  job-2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Job2"
